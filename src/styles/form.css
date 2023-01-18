@@ -1,0 +1,21 @@
+.month-year-cvc {
+  display: flex;
+  gap: 0 0.4rem;
+}
+
+.month-year {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inputs-month-year {
+  display: flex;
+  gap: 0 0.2rem;
+}
+
+.cvc {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}

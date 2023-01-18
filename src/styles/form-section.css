@@ -1,0 +1,14 @@
+.form-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+@media screen and (max-width: 425px) {
+  .form-section {
+    padding: 1.5rem;
+    width: 100%;
+  }
+}

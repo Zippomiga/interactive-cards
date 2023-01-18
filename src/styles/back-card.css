@@ -1,0 +1,25 @@
+.back-card {
+  background: url(../images/bg-card-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 700;
+  height: 13rem;
+  padding: 5.9rem 2.4rem 0 0;
+  text-align: right;
+  width: 22rem;
+}
+
+
+@media screen and (max-width: 425px) {
+  .back-card {
+    font-size: 0.8rem;
+    height: 9rem;
+    margin: 2rem 0 -3.4rem 4rem;
+    order: 1;
+    padding: 4rem 2.6rem 0 0;
+    width: 18rem;
+  }
+}

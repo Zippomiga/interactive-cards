@@ -1,0 +1,42 @@
+.front-card {
+  background: url(../images/card-logo.svg), url(../images/bg-card-front.png);
+  background-position: 1.4rem 1.8rem, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, contain;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  height: 13rem;
+  justify-content: flex-end;
+  letter-spacing: 0.2rem;
+  margin-left: -10rem;
+  text-align: center;
+  width: 22rem;
+}
+
+.details-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 425px) {
+  .front-card {
+    background-position: 1.6rem 1rem, center;
+    background-size: 15%, contain;
+    font-size: 1.1rem;
+    height: 9rem;
+    margin: 0 4rem 0 0;
+    order: 2;
+    width: 18rem;
+    z-index: 1;
+  }
+
+  .details-card {
+    font-size: 0.7rem;
+    padding: 1rem 1.2rem;
+  }
+}
